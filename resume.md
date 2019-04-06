@@ -13,4 +13,7 @@ python manage.py runserver -> levantar servidor
 
 python manage.py startapp posts -> 
 
+python manage.py migrate -> correr migraciones
+python manage.py makemigrations -> levantar ultima migracion
+
 
