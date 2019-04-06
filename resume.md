@@ -20,6 +20,10 @@ python manage.py shell -> shell de python con todas las cosas de django disponib
 python manage.py createsuperuser -> crear super usuario
 
 
+admin.py
+en el archivo admin.py de cada app se usa para registrar el template CRUD en django
+
+
 
 
 ## Glosario
