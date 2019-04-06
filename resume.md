@@ -16,4 +16,4 @@ python manage.py startapp posts ->
 python manage.py migrate -> correr migraciones
 python manage.py makemigrations -> levantar ultima migracion
 
-
+python manage.py shell -> shell de python con todas las cosas de django disponibles
