@@ -76,12 +76,7 @@
                         type="text"
                         name="phone_number"
                         placeholder="Phone number"
-                        value="
-                        {% if form.errors %}
-                            {{ form.phone_number.value }}
-                        {% else %}
-                            {{ profile.phone_number }}
-                        {% endif %}"
+                        value="{% if form.errors %}{{ form.phone_number.value }}{% else %}{{ profile.phone_number }}{% endif %}"
                     />
                     <div class="invalid-feedback">
                         {% for error in form.phone_number.errors %}
